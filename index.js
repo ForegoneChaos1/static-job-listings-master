@@ -31,8 +31,8 @@ const vue = document.querySelectorAll(".vue");
 const vueBtn = document.querySelector(".vue-button");
 const django = document.querySelectorAll(".django");
 const djangoBtn = document.querySelector(".django-button");
-
 const jobCards = document.querySelectorAll(".container, .container.border");
+const clearBtn = document.getElementById("clear-btn")
 
 selectionBoard.addEventListener('click', (e) => {
     if (e.target.tagName === 'IMG') {
@@ -371,4 +371,9 @@ selectionBoard.addEventListener('click', (e) => {
             checkActiveCombinations();
         }
     }
+});
+
+clearBtn.addEventListener('click', () => {
+    
+        selectionBoard.style.display = 'none';
 });

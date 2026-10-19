@@ -135,3 +135,7 @@ main {
     background-color: hsl(180, 14%, 20%);
     transition: 0.5s;
 }
+#clear-btn{
+  display: flex;
+  
+}
