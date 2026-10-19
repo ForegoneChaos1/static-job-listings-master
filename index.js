@@ -32,7 +32,6 @@ const vueBtn = document.querySelector(".vue-button");
 const django = document.querySelectorAll(".django");
 const djangoBtn = document.querySelector(".django-button");
 
-// 1. Target all the job posting cards on your page instead of the board filters
 const jobCards = document.querySelectorAll(".container, .container.border");
 
 selectionBoard.addEventListener('click', (e) => {
