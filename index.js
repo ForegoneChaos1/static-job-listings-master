@@ -374,6 +374,5 @@ selectionBoard.addEventListener('click', (e) => {
 });
 
 clearBtn.addEventListener('click', () => {
-    
         selectionBoard.style.display = 'none';
 });
